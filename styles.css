@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(87, 82, 82);
 }
 
 header {
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: steelblue;
+    background-color: rgb(38, 109, 168);
     color: #ffffff;
     border-style: solid;
     text-align: left;
@@ -25,25 +25,36 @@ header h1 {
 header nav {
     padding-top: 20px;
     margin-left: 15px;
-    float: left;
-    font-family: monospace
+    float: right;
+    font-family: monospace;
     font-size: 20px;
 }
 
-header nav ul {
+.header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+.header-nav__list {
+    background-color: rgb(38, 109, 168);
+}
+
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
+
+.header-nav__item {
+    color: lightgreen;
+    size: 15px;
+}
+
 
 .space_banner {
     height: 100px;
     width: 100%;
     background-position: center;
-    display: inline-block;
+    display: flex;
 }
 
 .center {
@@ -59,9 +70,8 @@ header nav ul li {
 }
 
 .luke, .servers, .professional {
-    height: 20px;
-    width: 50%;
-    border-style: solid;   
+    height: 18px;
+    width: 50%;  
 }
 
 
@@ -79,11 +89,20 @@ Meatnpotatoes refers to the central content of the page.
     display: inline-block;
     margin-left: 150px;
 }
+.ice-breaker {
+    background-color: rgb(180, 118, 128);
+    padding: 25px;
+    border-style: solid;
+    border-color: honeydew;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    border-style: solid;
+    border-color: #ffffff;
 }
 
