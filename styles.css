@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: rgb(87, 82, 82);
+    background-color: rgba(68, 138, 108, 0.932);
 }
 
 header {
-    padding: 20px;
+    padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(38, 109, 168);
     color: #ffffff;
@@ -58,8 +58,8 @@ header nav {
 }
 
 .center {
-    height: 50px;
-    width: 50%;
+    height: 210px;
+    width: 100%;
 }
 
 .float-left {
