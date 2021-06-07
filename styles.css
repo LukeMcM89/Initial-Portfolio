@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 100;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: steelblue;
+    color: #ffffff;
+    border-style: solid;
+}
+
+header h1 {
+    font-size: 50px;
+    display: inline-block;
+}
+
+header nav {
+    padding-top: 20px;
+    margin-left: 15px;
+    float: left;
+    font-family:monospace
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.space_banner {
+    height: 100px;
+    width: 100%;
+    background-position: center;
+}
+
+.center {
+    height: 50px;
+    width: 50%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 30px;
+    height: 300px;
+    width: 100%;
+}
+
+.luke {
+    height: 20px;
+    width: 100%;
+}
+
+p {
+    font-size: 17px;
+    font: monospace;
+}
+
+/* 
+Meatnpotatoes refers to the central content of the page.
+*/
+
+.meatnpotatoes {
+    width: 75%;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.tactical {
+    margin-left: 30px;
+    padding: 10px;
+    clear: both;
+    float: left;
+    width: 35%;
+    height: 100%;
+    font-family: monospace;
+    background-color: honeydew;
+}
+
+
+.tactical-ice-breaker, .tactical-future, .tactical-linked {
+    display: block;
+    padding: 100px;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.luke, .future-work, .resume {
+    height:10px;
+}
