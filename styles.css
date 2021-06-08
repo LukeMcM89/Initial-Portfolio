@@ -104,6 +104,7 @@ Meatnpotatoes refers to the central content of the page.
     padding: 25px;
     border-style: solid;
     border-color: honeydew;
+    box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -113,6 +114,10 @@ Meatnpotatoes refers to the central content of the page.
     border-style: solid;
     border-color: honeydew;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.reach_out {
+    margin-bottom: 20px;
 }
 
 footer {
