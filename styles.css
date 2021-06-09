@@ -93,6 +93,13 @@ The selector for the space banner image below the header and nav bar.
   width: 100%;
 }
 
+.working {
+  float: left;
+  margin-right: 30px;
+  height: 300px;
+  width: 100%;
+}
+
 .luke,
 .refactor,
 .professional {
@@ -107,9 +114,18 @@ The selector for the space banner image below the header and nav bar.
 }
 
 .refactor {
-  border-style: solid;
-  border-color: white;
+ height: 400px;
 }
+
+.working:hover {
+    position:relative;
+      top: 25px;
+      width: 110%;
+      height: 90%;
+      display:block;
+      z-index:999;
+}
+
 
 .about-me, 
 .projects, 
@@ -140,6 +156,7 @@ Meatnpotatoes refers to the main content of the page.
   border-color: honeydew;
   box-sizing: border-box;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: -20px;
 }
 
 .code_projects {
@@ -149,7 +166,7 @@ Meatnpotatoes refers to the main content of the page.
   border-color: honeydew;
   box-sizing: border-box;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   margin-top: 25px;
 }
 
