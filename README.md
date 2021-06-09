@@ -1,5 +1,5 @@
 # Initial-Portfolio
-The first iteration of my professional web developer portfolio.
+The first iteration of my professional web developer portfolio. 
 
 Link to my deployed portfolio: https://lukemcm89.github.io/Initial-Portfolio/
 

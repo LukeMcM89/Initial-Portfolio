@@ -11,7 +11,8 @@ body {
 
 header {
   padding: 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: rgb(38, 109, 168);
   color: #ffffff;
   border-style: solid;
@@ -92,10 +93,6 @@ The selector for the space banner image below the header and nav bar.
   width: 100%;
 }
 
-/*
-Line 86 is the selectors for images.
-*/
-
 .luke,
 .refactor,
 .professional {
@@ -105,6 +102,8 @@ Line 86 is the selectors for images.
 
 .luke {
   display: center;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .refactor {
@@ -112,8 +111,8 @@ Line 86 is the selectors for images.
   border-color: white;
 }
 
-.about-me,
-.projects,
+.about-me, 
+.projects, 
 .contact-me {
   border-style: solid;
 }
@@ -124,7 +123,7 @@ p {
 }
 
 /* 
-Meatnpotatoes refers to the central content of the page.  LUKE-LOOK BACK AT TEXT-ALIGN 122!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Meatnpotatoes refers to the main content of the page.  
 */
 
 .meatnpotatoes {
@@ -134,21 +133,28 @@ Meatnpotatoes refers to the central content of the page.  LUKE-LOOK BACK AT TEXT
   box-sizing: border-box;
 }
 
+.icebreaker {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
 .ice-breaker, .reach_out {
   background-color: rgb(180, 118, 128);
   padding: 25px;
   border-style: solid;
   border-color: honeydew;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .code_projects {
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.637);
   padding: 25px;
   border-style: solid;
   border-color: honeydew;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 /*
@@ -156,22 +162,12 @@ Footer stylized with a quote.
 */
 
 footer {
-  padding: 30px;
+  padding: 15px;
   clear: both;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   border-style: solid;
   border-color: #ffffff;
   background-color: rgb(38, 109, 168);
 }
-
-
-
-
-
-
-
-
-
-
-
