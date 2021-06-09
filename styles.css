@@ -133,19 +133,13 @@ Meatnpotatoes refers to the main content of the page.
   box-sizing: border-box;
 }
 
-.icebreaker {
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
-
 .ice-breaker, .reach_out {
   background-color: rgb(180, 118, 128);
   padding: 25px;
   border-style: solid;
   border-color: honeydew;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .code_projects {
@@ -153,10 +147,16 @@ Meatnpotatoes refers to the main content of the page.
   padding: 25px;
   border-style: solid;
   border-color: honeydew;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
+.reach-out {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
 /*
 Footer stylized with a quote.
 */
@@ -171,3 +171,10 @@ footer {
   border-color: #ffffff;
   background-color: rgb(38, 109, 168);
 }
+
+
+
+/*
+
+@media screen and (min-width: 0px) and (max-width: 0px)
+
