@@ -1,151 +1,177 @@
 * {
-    box-sizing: border-box;
-    padding: 100;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 100;
+  margin: 0;
 }
 
 body {
-    background-color: rgba(11, 78, 117, 0.932);
-    margin: 0;
+  background-color: rgba(11, 78, 117, 0.932);
+  margin: 0;
 }
 
 header {
-    padding: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(38, 109, 168);
-    color: #ffffff;
-    border-style: solid;
-    text-align: left;
+  padding: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(38, 109, 168);
+  color: #ffffff;
+  border-style: solid;
+  text-align: left;
 }
 
 header h1 {
-    font-size: 50px;
-    display: inline-block;
+  font-size: 50px;
+  display: inline-block;
 }
+
 /*
 header nav controls the internal links that lead to designated sections of the portfolio.
 */
 
 header nav {
-    padding-top: 20px;
-    margin-left: 15px;
-    float: right;
-    font-family: monospace;
-    font-size: 20px;
+  padding-top: 20px;
+  margin-left: 15px;
+  float: right;
+  font-family: monospace;
+  font-size: 20px;
 }
 
 .header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header-nav__list {
-    background-color: rgb(38, 109, 168);
+  background-color: rgb(38, 109, 168);
 }
 
+nav a:hover {
+  background-color: rgb(180, 118, 128);
+  padding: 7px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
 /*
-Comprised of links, Home, About-Me, Projects and Contact-Me.
+Comprised of the internal links: Home, About-Me, Projects and Contact-Me.
 */
 
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    
+  display: inline-block;
+  margin-left: 25px;
 }
 
 .header-nav__item {
-    color: lightgreen;
-    size: 15px;
+  padding: 10px;
+  font-size: 23px;
+  size: 20px;
+  list-style-type: square;
+  font-family: monospace;
+  display: inline;
+  text-decoration-style: wavy;
 }
 
 /*
-The selector for the space image below the header and nav bar.
+The selector for the space banner image below the header and nav bar.
 */
 
 .space_banner {
-    height: 150px;
-    width: 100%;
-    background-position: center;
+  height: 150px;
+  width: 100%;
+  background-position: center;
 }
 
 .center {
-    height: 210px;
-    width: 100%;
+  height: 210px;
+  width: 100%;
 }
 
 .float-left {
-    float: left;
-    margin-right: 30px;
-    height: 300px;
-    width: 100%;
+  float: left;
+  margin-right: 30px;
+  height: 300px;
+  width: 100%;
 }
 
 /*
-Line 85 is the selectors for images
+Line 86 is the selectors for images.
 */
 
-.luke, .refactor, .professional {
-    height: 5px;
-    width: 50%; 
+.luke,
+.refactor,
+.professional {
+  height: 5px;
+  width: 50%;
+}
+
+.luke {
+  display: center;
 }
 
 .refactor {
-    border-style: solid;
-    border-color: white;
+  border-style: solid;
+  border-color: white;
 }
 
-.about-me, .projects, .contact-me {
-    border-style: solid;
+.about-me,
+.projects,
+.contact-me {
+  border-style: solid;
 }
 
 p {
-    font-size: 17px;
-    font: monospace;
+  font-size: 17px;
+  font: monospace;
 }
 
 /* 
-Meatnpotatoes refers to the central content of the page.
+Meatnpotatoes refers to the central content of the page.  LUKE-LOOK BACK AT TEXT-ALIGN 122!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 */
 
 .meatnpotatoes {
-    width: 75%;
-    display: inline-block;
-    margin-left: 150px;
-    box-sizing: border-box;
+  width: 75%;
+  display: inline-block;
+  margin-left: 150px;
+  box-sizing: border-box;
 }
+
 .ice-breaker, .reach_out {
-    background-color: rgb(180, 118, 128);
-    padding: 25px;
-    border-style: solid;
-    border-color: honeydew;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(180, 118, 128);
+  padding: 25px;
+  border-style: solid;
+  border-color: honeydew;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .code_projects {
-    background-color: grey;
-    padding: 25px;
-    border-style: solid;
-    border-color: honeydew;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: grey;
+  padding: 25px;
+  border-style: solid;
+  border-color: honeydew;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/*
-Reach out selector refers to contact information section.
-*/
-
-.reach_out {
-    margin-bottom: 20px;
-}
 /*
 Footer stylized with a quote.
 */
+
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    border-style: solid;
-    border-color: #ffffff;
-    background-color: rgb(38, 109, 168);
+  padding: 30px;
+  clear: both;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: rgb(38, 109, 168);
 }
+
+
+
+
+
+
+
+
+
+
 
