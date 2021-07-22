@@ -119,11 +119,11 @@ The selector for the space banner image below the header and nav bar.
 
 .working:hover {
     position:relative;
-      top: 25px;
-      width: 110%;
-      height: 90%;
-      display:block;
-      z-index:999;
+    top: 25px;
+    width: 110%;
+    height: 90%;
+    display:block;
+    z-index:999;
 }
 
 

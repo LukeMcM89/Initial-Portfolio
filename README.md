@@ -15,12 +15,6 @@ Link to my deployed portfolio: https://lukemcm89.github.io/Initial-Portfolio/
 
 Link to my GitHub Repositories: https://github.com/LukeMcM89?tab=repositories
 
-Update
-
-Grade on Assignment: A
-
-![alt text](./relative/path/to/Portfolio_screen.pngraw=true “alt text”)
-=======
 <img width="1440" alt="Portfolio_screen" src="https://user-images.githubusercontent.com/80003989/121418588-19e9be80-c939-11eb-913b-1fbfb2b8256a.png">
 
 
